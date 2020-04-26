@@ -1,14 +1,14 @@
 # Template file for 'wofi'
 pkgname=wofi
-version=1.1.2
+version=0
 revision=1
-wrksrc="${pkgname}-v${version}"
+wrksrc="wofi-tip"
 build_style=meson
 hostmakedepends="pkg-config"
 makedepends="wayland-devel gtk+3-devel"
 short_desc="Program launcher for Wayland compositors"
-maintainer="Zach Dykstra <dykstra.zachary@gmail.com>"
+maintainer="Nathan Blair <engineer.nblair@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://hg.sr.ht/~scoopta/wofi"
-distfiles="https://hg.sr.ht/~scoopta/wofi/archive/v${version}.tar.gz"
-checksum=@8c19138049e9c27c243316d810767674d090a850b41edc2af2badf111b77c2b0
+distfiles="https://hg.sr.ht/~scoopta/wofi/archive/tip.tar.gz"
+checksum=@c8a61418bce6f54c6fb4e64f04f1df8831324ddee98c1fb2fa0a617fffa1b5d2
