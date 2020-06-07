@@ -1,8 +1,8 @@
 # Template file for 'nodejs-static'
 pkgname=nodejs-static
-version=14.0.0
+version=14.4.0
 revision=1
-wrksrc="node-v14.0.0"
+wrksrc="node-v${version}"
 # Need these for host v8 for torque, see https://github.com/nodejs/node/pull/21079
 hostmakedepends="python3"
 makedepends="python3-devel which"
@@ -11,7 +11,7 @@ maintainer="Nathan Blair <engineer.nblair@gmail.com>"
 license="MIT"
 homepage="https://nodejs.org/"
 distfiles="${homepage}/dist/v${version}/node-v${version}.tar.gz"
-checksum=5ee2a8d3036a1652ec93bbd8b5812e0ae41e0450af729b14df4a27afc6f17cf8
+checksum=5769ce6cf619e3f38dab9d64eab204722665b8b0f5bd2568ac171e2edc6db7f7
 python_version=3 #unverified
 
 replaces="iojs>=0"
