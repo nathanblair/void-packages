@@ -1,7 +1,7 @@
 # Template file for 'wofi'
 pkgname=wofi
 version=0
-revision=1
+revision=0
 wrksrc="wofi-tip"
 build_style=meson
 hostmakedepends="pkg-config"
@@ -11,4 +11,4 @@ maintainer="Nathan Blair <engineer.nblair@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://hg.sr.ht/~scoopta/wofi"
 distfiles="https://hg.sr.ht/~scoopta/wofi/archive/tip.tar.gz"
-checksum=@c8a61418bce6f54c6fb4e64f04f1df8831324ddee98c1fb2fa0a617fffa1b5d2
+checksum=@1f41c11f46bea8a27ff90689d85e5b06707ed9a5aff99e9d6d1018491f839e78
