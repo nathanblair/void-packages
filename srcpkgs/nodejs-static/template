@@ -67,9 +67,9 @@ do_configure() {
 
 do_build() {
 	if [ "$CROSS_BUILD" ]; then
-		make LD="$CXX" LDFLAGS+=-ldl -j4 PORTABLE=1 V=1
+		make LD="$CXX" LDFLAGS+=-ldl ${makejobs} PORTABLE=1 V=1
 	else
-		make LD="$CXX" LDFLAGS+=-ldl -j4 V=1
+		make LD="$CXX" LDFLAGS+=-ldl ${makejobs} V=1
 	fi
 }
 
